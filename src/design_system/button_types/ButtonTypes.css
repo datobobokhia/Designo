@@ -1,0 +1,29 @@
+.dark, .light { 
+    width: 152px;
+    height: 56px;
+    border: 0px;
+    border-radius: 8px;
+    position: absolute;
+    left: 31.11%;
+    right: 31.36%;
+    top: 33.08%;
+    bottom: 45.63%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.68px;
+    letter-spacing: 1px;
+    font-family: 'Jost';
+    font-style: normal;
+    text-transform: uppercase;
+    color: #333136;
+}
+.dark:hover, .light:hover{
+    background-color: #FFAD9B;
+    color: #FFFFFF;
+}
+
+.light { 
+    color: #FFFFFF;
+    background-color: #E7816B;
+}
+
