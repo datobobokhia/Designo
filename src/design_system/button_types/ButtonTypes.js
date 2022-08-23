@@ -1,13 +1,9 @@
 import './ButtonTypes.css';
 
-function buttonTypes({ name }) {
-    const buttonMode = {
-        dark: 'dark',
-        light: 'light'
-    }
+function ButtonTypes({ mode }) {
     return (
-        <button className={name === buttonMode.dark ? buttonMode.dark : buttonMode.light}>Learn More</button>
+        <button className={mode === 'dark' ? 'dark' : 'light'}>Learn More</button>
     )
 }
 
-export default buttonTypes;
+export default ButtonTypes;
