@@ -1,25 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import ButtonTypes from './design_system/button_types/ButtonTypes.js'
+import MobileHeader from './mobile/MobileHeader'
+import BodyFrame from './mobile/BodyFrame'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <ButtonTypes name={'dark'}/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MobileHeader/>
+      <BodyFrame/>
     </div>
   );
 }
