@@ -1,0 +1,53 @@
+.designImage {
+    border: 0px;
+    border-radius: 15px;
+    background: #000000;
+    mix-blend-mode: normal;
+}
+
+.innerTextWeb, .innerTextApp, .innerTextGraphic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 215px;
+    height: 71px;
+    left: 56px;
+    top: 70px;
+}
+
+.innerTextApp {
+    top: 360px;
+}
+
+.innerTextGraphic {
+    top: 630px;
+}
+
+.designType {
+    height: 36px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+
+    letter-spacing: 1.4px;
+
+    color: #FFFFFF;
+}
+
+.linkText {
+    height: 22px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
