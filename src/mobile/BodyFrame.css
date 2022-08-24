@@ -71,7 +71,7 @@
 
 .phoneFrame {
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: -120px;
+    top: 302px;
     filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569));
 }

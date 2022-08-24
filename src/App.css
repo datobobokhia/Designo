@@ -1,0 +1,10 @@
+.designPortfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 327px;
+    height: 798px;
+    left: 24px;
+    top: 1059px;
+}
