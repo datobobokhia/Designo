@@ -2,6 +2,7 @@ import './BodyDesignProject.css';
 import WebDesignImage from './image-web-design.jpg';
 import AppDesignImage from './image-app-design.jpg';
 import GraphicDesignImage from './image-graphic-design.jpg';
+import RightArrowIcon from './icon-right-arrow.svg';
 
 function WebDesign({design}) {
     return (
@@ -16,14 +17,18 @@ function WebDesign({design}) {
             <div className={design === 'web' ? 'innerTextWeb'
                     : design=== 'app' ? 'innerTextApp'
                     : 'innerTextGraphic'}>
-                <div className='designType'>
-                    {design === 'web' ? <p>WEB DESIGN</p>
-                    : design=== 'app' ? <p>APP DESIGN</p>
-                    : <p>GRAPHIC DESIGN</p>}
+                <div className={design === 'graphic' ? 'designTypeGraph' : 'designType'}>
+                    {design === 'web' ? 'WEB DESIGN'
+                    : design === 'app' ? 'APP DESIGN'
+                    : 'GRAPHIC DESIGN'}
                 </div>
                 <div className='linkText'>
                     VIEW PROJECTS
-                    <img alt=''/>
+                    <img 
+                    src={RightArrowIcon}
+                    alt='Arrow Icon'
+                    className='arrowIcon'
+                    />
                 </div>
             </div>
         </div>
