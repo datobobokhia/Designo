@@ -14,7 +14,7 @@
     width: 215px;
     height: 71px;
     left: 56px;
-    top: 70px;
+    top: 90px;
 }
 
 .innerTextApp {
@@ -23,9 +23,13 @@
 
 .innerTextGraphic {
     top: 630px;
+    width: 253px;
+    left: 36px;
 }
 
-.designType {
+.designType, .designTypeGraph {
+    text-align: center;
+    width: 215px;
     height: 36px;
     font-family: 'Jost';
     font-style: normal;
@@ -38,16 +42,23 @@
     color: #FFFFFF;
 }
 
+.designTypeGraph {
+    width: 253px;
+}
+
 .linkText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 197px;
     height: 22px;
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
-    
     letter-spacing: 5px;
     text-transform: uppercase;
-    
     color: #FFFFFF;
 }
