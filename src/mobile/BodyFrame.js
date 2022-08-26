@@ -1,7 +1,7 @@
 import './BodyFrame.css'
-import HeroCircleHome from './bg-pattern-hero-home.svg';
+import HeroCircleHome from './photo_assets/bg-pattern-hero-home.svg';
 import ButtonTypes from '../design_system/button_types/ButtonTypes.js'
-import HeroPhone from './image-hero-phone.png';
+import HeroPhone from './photo_assets/image-hero-phone.png';
 
 function BodyFrame() {
     return (

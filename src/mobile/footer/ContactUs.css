@@ -1,0 +1,52 @@
+.contact {
+    position: absolute;
+    width: 327px;
+    height: 379px;
+    left: 24px;
+    background-color: #E7806B;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.content {
+    position: absolute;
+    width: 279px;
+    height: 251px;
+    left: 24px;
+    top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentText {
+    width: 279px;
+    height: 163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentHeader {
+    width: 279px;
+    height: 82px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contentParagraph {
+    width: 279px;
+    height: 75px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}

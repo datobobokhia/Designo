@@ -1,6 +1,7 @@
-import './MobileHeader.css'
-import LogoDark from './logo-dark.png'
-import IconHamburger from './icon-hamburger.svg'
+import './MobileHeader.css';
+import LogoDark from './photo_assets/logo-dark.png';
+import IconHamburger from './photo_assets/icon-hamburger.svg';
+
 function MobileHeader() {
     return(
         <div className='header'>

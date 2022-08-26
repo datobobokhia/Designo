@@ -1,8 +1,10 @@
 import './ButtonTypes.css';
 
-function ButtonTypes({ mode }) {
+function ButtonTypes({mode}) {
     return (
-        <button className={mode === 'dark' ? 'dark' : 'light'}>Learn More</button>
+        <div>
+            <button className={mode === 'dark' ? 'dark' : 'light'}>Learn More</button>
+        </div>
     )
 }
 

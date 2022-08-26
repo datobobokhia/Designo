@@ -8,3 +8,22 @@
     left: 24px;
     top: 1059px;
 }
+
+.selfDescription {
+    position: absolute;
+    width: 327px;
+    height: 1396px;
+    left: 24px;
+    top: 1977px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    position: absolute;
+    width: 375px;
+    height: 1005px;
+    left: 0px;
+    top: 3494px;
+}
