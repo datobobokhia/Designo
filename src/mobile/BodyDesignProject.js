@@ -1,8 +1,8 @@
 import './BodyDesignProject.css';
-import WebDesignImage from './image-web-design.jpg';
-import AppDesignImage from './image-app-design.jpg';
-import GraphicDesignImage from './image-graphic-design.jpg';
-import RightArrowIcon from './icon-right-arrow.svg';
+import WebDesignImage from './photo_assets/image-web-design.jpg';
+import AppDesignImage from './photo_assets/image-app-design.jpg';
+import GraphicDesignImage from './photo_assets/image-graphic-design.jpg';
+import RightArrowIcon from './photo_assets/icon-right-arrow.svg';
 
 function WebDesign({design}) {
     return (
