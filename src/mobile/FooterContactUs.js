@@ -1,9 +1,15 @@
-import './ContactUs.css';
-import ButtonTypes from '/Users/David/OneDrive/Desktop/Designo/designo/src/design_system/button_types/ButtonTypes.js';
+import './FooterContactUs.css';
+import ButtonTypes from '../design_system/button_types/ButtonTypes.js';
+import ThreeCircles from './photo_assets/bg-pattern-design-pages-intro-mobile.svg'
 
 function Contact() {
     return (
         <div className='contact'>
+            <img
+            src={ThreeCircles}
+            alt='Three Circles'
+            className='threeCircles'
+            />
             <div className='content'>
                 <div className='contentText'>
                     <div className='contentHeader'>

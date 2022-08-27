@@ -5,7 +5,8 @@ import BodyDesignProject from './mobile/BodyDesignProject';
 import Passionate from './mobile/Passionate';
 import Resourceful from './mobile/Resourceful';
 import Friendly from './mobile/Friendly';
-import Contact from './mobile/footer/ContactUs.js';
+import Contact from './mobile/FooterContactUs.js';
+import FooterFooter from './mobile/FooterFooter.js';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </div>
       <div className='footer'>
         <Contact/>
+        <FooterFooter/>
       </div>
     </div>
   );
