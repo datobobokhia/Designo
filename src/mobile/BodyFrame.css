@@ -31,6 +31,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .discription {
@@ -49,7 +50,6 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 36px;
-    /* or 112% */
     text-align: center;
     color: #FFFFFF;
 }
@@ -62,8 +62,6 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    /* or 167% */
-
     text-align: center;
     color: #FFFFFF;
 
