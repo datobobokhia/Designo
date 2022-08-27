@@ -37,12 +37,10 @@ function FooterFooter() {
                     M : contact@designo.co
                     </div>
                     <div className='socMedia'>
-                        <a href="https://www.facebook.com/">
-                            <img
-                            src={FacebookIcon}
-                            alt='Facebook Icon'
-                            />
-                        </a>
+                        <img
+                        src={FacebookIcon}
+                        alt='Facebook Icon'
+                        />
                         <img
                         src={YoutubeIcon}
                         alt='Youtube Icon'
