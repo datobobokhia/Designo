@@ -1,65 +1,69 @@
 .contact {
-    position: absolute;
-    width: 327px;
-    height: 379px;
-    left: 24px;
-    background-color: #E7806B;
-    border: 0px;
-    border-radius: 15px;
-    overflow: hidden;
+  position: absolute;
+  width: 327px;
+  height: 379px;
+  left: 24px;
+  background-color: #e7806b;
+  border: 0px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .threeCircles {
-    position: absolute;
-    left: -388px;
-    top: -249px;
-    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 100%, rgba(93, 2, 2, 0.497569) 100%);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    mix-blend-mode: normal;
-    opacity: 1;
-    transform: rotate(90deg);
+  position: absolute;
+  left: -388px;
+  top: -249px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 100%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  mix-blend-mode: normal;
+  opacity: 1;
+  transform: rotate(90deg);
 }
 
 .content {
-    position: absolute;
-    width: 279px;
-    height: 251px;
-    left: 24px;
-    top: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  position: absolute;
+  width: 279px;
+  height: 251px;
+  left: 24px;
+  top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contentText {
-    width: 279px;
-    height: 163px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 279px;
+  height: 163px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .contentHeader {
-    width: 279px;
-    height: 82px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
+  width: 279px;
+  height: 82px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .contentParagraph {
-    width: 279px;
-    height: 75px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
+  width: 279px;
+  height: 75px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
 }

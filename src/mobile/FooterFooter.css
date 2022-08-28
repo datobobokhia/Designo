@@ -1,77 +1,77 @@
 .footerFooter {
-    position: absolute;
-    width: 375px;
-    height: 815px;
-    left: 0px;
-    top: 190px;
-    background: #1D1C1E;
-    z-index: -1;
+  position: absolute;
+  width: 375px;
+  height: 815px;
+  left: 0px;
+  top: 190px;
+  background: #1d1c1e;
+  z-index: -1;
 }
 
 .contactInfo {
-    position: absolute;
-    width: 327px;
-    height: 498px;
-    left: 24px;
-    top: 253px;
+  position: absolute;
+  width: 327px;
+  height: 498px;
+  left: 24px;
+  top: 253px;
 }
 
 .logoAndLinks {
-    position: absolute;
-    top: 0px;
-    width: 327px;
-    height: 198px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  width: 327px;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    width: 202px;
-    height: 27px;
+  width: 202px;
+  height: 27px;
 }
 
-.links{
-    height: 14px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    letter-spacing: 2px;
-    color: #FFFFFF;
+.links {
+  height: 14px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
 }
 
 .addresses {
-    position: absolute;
-    width: 327px;
-    height: 260px;
-    top: 238px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  position: absolute;
+  width: 327px;
+  height: 260px;
+  top: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .officeAddress {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    width: 327px;
-    height: 78px;
-    text-align: center;   
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  width: 327px;
+  height: 78px;
+  text-align: center;
 }
 
 .socMedia {
-    width: 184px;
-    height: 24px;
-    display: flex;
-    justify-content: space-between;
+  width: 184px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
 }

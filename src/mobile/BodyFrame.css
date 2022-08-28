@@ -1,75 +1,78 @@
 .bodyFrame {
-    position: absolute;
-    width: 375px;
-    height: 843px;
-    left: 0px;
-    top: 96px;
-    background-color: #E7816B;
-    overflow: hidden;
+  position: absolute;
+  width: 375px;
+  height: 843px;
+  left: 0px;
+  top: 96px;
+  background-color: #e7816b;
+  overflow: hidden;
 }
 
 .heroCircleHome {
-    position: absolute;
-    width: 640px;
-    height: 640px;
-    left: 0px;
-    top: 102px;
-    mix-blend-mode: normal;
-    opacity: 1;
-    transform: matrix(0, -1, -1, 0, 0, 0);
-    background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 100%, rgba(93, 2, 2, 0.497569) 100%);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: 0px;
+  top: 102px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 100%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .bodyFrameIntro {
-    position: absolute;
-    width: 327px;
-    height: 312px;
-    left: 24px;
-    top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
+  position: absolute;
+  width: 327px;
+  height: 312px;
+  left: 24px;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
 }
 
 .discription {
-    width: 327px;
-    height: 232px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 327px;
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .headline {
-    width: 327px;
-    height: 118px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
+  width: 327px;
+  height: 118px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .introduction {
-    width: 327px;
-    height: 100px;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
-    color: #FFFFFF;
-
+  width: 327px;
+  height: 100px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .phoneFrame {
-    position: absolute;
-    left: -120px;
-    top: 302px;
-    filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569));
+  position: absolute;
+  left: -120px;
+  top: 302px;
+  filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569));
 }
