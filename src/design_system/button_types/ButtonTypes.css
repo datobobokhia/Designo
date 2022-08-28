@@ -1,25 +1,16 @@
-.dark, .light { 
-    width: 152px;
-    height: 56px;
-    border: 0px;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21.68px;
-    letter-spacing: 1px;
-    font-family: 'Jost';
-    font-style: normal;
-    text-transform: uppercase;
-    color: #333136;
-    z-index: 1;
+.dark,
+.light {
+  width: 152px;
+  height: 56px;
+  border: 0px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21.68px;
+  letter-spacing: 1px;
+  font-family: "Jost";
+  font-style: normal;
+  text-transform: uppercase;
+  color: #333136;
+  z-index: 1;
 }
-.dark:hover, .light:hover{
-    background-color: #FFAD9B;
-    color: #FFFFFF;
-}
-
-.light { 
-    color: #FFFFFF;
-    background-color: #E7816B;
-}
-
