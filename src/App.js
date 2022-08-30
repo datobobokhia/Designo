@@ -14,9 +14,9 @@ function App() {
       <MobileHeader />
       <BodyFrame />
       <div className="designPortfolio">
-        <BodyDesignProject design={"web"} />
-        <BodyDesignProject design={"app"} />
-        <BodyDesignProject design={"graphic"} />
+        <BodyDesignProject design="web" />
+        <BodyDesignProject design="app" />
+        <BodyDesignProject design="graphic" />
       </div>
       <div className="selfDescription">
         <Passionate />
