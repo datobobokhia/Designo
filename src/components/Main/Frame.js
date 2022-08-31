@@ -1,13 +1,11 @@
-import "./BodyFrame.css";
-import HeroCircleHome from "./photo_assets/bg-pattern-hero-home.svg";
-import ButtonTypes from "../design_system/button_types/ButtonTypes.js";
-import HeroPhone from "./photo_assets/image-hero-phone.png";
+import "./Frame.css";
+import ButtonTypes from "../../design_system/ButtonTypes";
 
-function BodyFrame() {
+export default function BodyFrame() {
   return (
     <div className="bodyFrame">
       <img
-        src={HeroCircleHome}
+        src="/assets/photo/bg-pattern-hero-home.svg"
         alt="big pattern hero home"
         className="heroCircleHome"
       />
@@ -24,9 +22,11 @@ function BodyFrame() {
         </div>
         <ButtonTypes mode={"dark"} />
       </div>
-      <img src={HeroPhone} alt="phone" className="phoneFrame" />
+      <img
+        src="/assets/photo/image-hero-phone.png"
+        alt="phone"
+        className="phoneFrame"
+      />
     </div>
   );
 }
-
-export default BodyFrame;

@@ -1,19 +1,15 @@
-import "./BodyDesignProject.css";
-import WebDesignImage from "./photo_assets/image-web-design.jpg";
-import AppDesignImage from "./photo_assets/image-app-design.jpg";
-import GraphicDesignImage from "./photo_assets/image-graphic-design.jpg";
-import RightArrowIcon from "./photo_assets/icon-right-arrow.svg";
+import "./DesignProject.css";
 
-function WebDesign({ design }) {
+export default function WebDesign({ design }) {
   return (
     <div className="webDesign">
       <img
         src={
           design === "web"
-            ? WebDesignImage
+            ? "/assets/photo/image-web-design.jpg"
             : design === "app"
-            ? AppDesignImage
-            : GraphicDesignImage
+            ? "/assets/photo/image-app-design.jpg"
+            : "/assets/photo/image-graphic-design.jpg"
         }
         alt="Design"
         className="designImage"
@@ -38,11 +34,13 @@ function WebDesign({ design }) {
         </div>
         <div className="linkText">
           VIEW PROJECTS
-          <img src={RightArrowIcon} alt="Arrow Icon" className="arrowIcon" />
+          <img
+            src="/assets/photo/icon-right-arrow.svg"
+            alt="Arrow Icon"
+            className="arrowIcon"
+          />
         </div>
       </div>
     </div>
   );
 }
-
-export default WebDesign;
