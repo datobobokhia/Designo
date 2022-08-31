@@ -1,11 +1,14 @@
-import "./FooterContactUs.css";
-import ButtonTypes from "../design_system/button_types/ButtonTypes.js";
-import ThreeCircles from "./photo_assets/bg-pattern-design-pages-intro-mobile.svg";
+import "./FooterContact.css";
+import ButtonTypes from "../../design_system/ButtonTypes/index.js";
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="contact">
-      <img src={ThreeCircles} alt="Three Circles" className="threeCircles" />
+      <img
+        src="/assets/photo/bg-pattern-design-pages-intro-mobile.svg"
+        alt="Three Circles"
+        className="threeCircles"
+      />
       <div className="content">
         <div className="contentText">
           <div className="contentHeader">Let’s talk about your project</div>
@@ -19,5 +22,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;
