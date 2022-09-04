@@ -1,7 +1,12 @@
-.footer {
+.footer,
+.webDesignFooter {
   position: absolute;
   width: 375px;
   height: 1005px;
   left: 0px;
   top: 3494px;
+}
+
+.webDesignFooter {
+  top: 4296px;
 }

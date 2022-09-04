@@ -1,0 +1,10 @@
+.otherDesigns {
+  position: absolute;
+  top: 3676px;
+  left: 24px;
+  width: 327px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

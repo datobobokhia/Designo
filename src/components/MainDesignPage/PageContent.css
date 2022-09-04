@@ -1,0 +1,10 @@
+.pageContent {
+  position: absolute;
+  top: 512px;
+  left: 24px;
+  width: 327px;
+  height: 3068px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
