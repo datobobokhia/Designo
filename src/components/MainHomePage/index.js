@@ -3,7 +3,7 @@ import Frame from "./Frame";
 import DesignProject from "./DesignProject";
 import ProjectApproach from "./ProjectApproach";
 
-export default function Main() {
+export default function MainHomePage() {
   return (
     <main>
       <Frame />
