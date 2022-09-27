@@ -33,8 +33,8 @@ export default function WebDesign({ design }) {
   };
 
   return (
-    <div className="webDesign">
-      <Link to="webdesign">
+    <Link to="webdesign">
+      <div className="webDesign">
         <img src={getImageSource()} alt="Design" className="designImage" />
         <div className={getInnerText()}>
           <div
@@ -51,7 +51,7 @@ export default function WebDesign({ design }) {
             />
           </div>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 }
