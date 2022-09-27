@@ -1,3 +1,8 @@
+.webDesign {
+  margin-bottom: 24px;
+  position: relative;
+}
+
 .designImage {
   border: 0px;
   border-radius: 15px;
@@ -8,25 +13,19 @@
 .innerTextWeb,
 .innerTextApp,
 .innerTextGraphic {
+  position: absolute;
+  top: 90px;
+  left: 56px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
   width: 215px;
   height: 71px;
-  left: 56px;
-  top: 90px;
-}
-
-.innerTextApp {
-  top: 360px;
 }
 
 .innerTextGraphic {
-  top: 630px;
-  width: 253px;
-  left: 36px;
+  left: 55px;
 }
 
 .designType,
